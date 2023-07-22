@@ -17,7 +17,7 @@ cap.set(4, height)
 # face qilmoqchi bo'lgan rasimni yuklaymiz
 image = cv2.imread("girl:jpg.jpeg")
 
-# yuzdagi haraktni aniqlash va o'lchamalar qo'yish uchun
+# yuzdagi haraktni aniqlash va o'lchamlar qo'yish uchun
 mp_drawing = mp.solutions.drawing_utils
 mp_drawing_styles = mp.solutions.drawing_styles
 mp_face_mesh = mp.solutions.face_mesh
